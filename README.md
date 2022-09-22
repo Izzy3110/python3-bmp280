@@ -1,15 +1,9 @@
-[![Build Status](https://travis-ci.com/pimoroni/bmp280-python.svg?branch=master)](https://travis-ci.com/pimoroni/bmp280-python)
-[![Coverage Status](https://coveralls.io/repos/github/pimoroni/bmp280-python/badge.svg?branch=master)](https://coveralls.io/github/pimoroni/bmp280-python?branch=master)
-[![PyPi Package](https://img.shields.io/pypi/v/bmp280.svg)](https://pypi.python.org/pypi/bmp280)
-[![Python Versions](https://img.shields.io/pypi/pyversions/bmp280.svg)](https://pypi.python.org/pypi/bmp280)
-
-
 # BMP280 
 ## Temperature, Pressure, & Altitude Sensor
+
 Suitable for measuring ambient temperature, barometric pressure, and altitude, the BMP280 is a basic weather sensor.
 
 ## Radxa Zero Fix
-
 ### a clone from [https://github.com/pimoroni/bmp280-python](https://github.com/pimoroni/bmp280-python)
 
 ### Tested Boards
@@ -29,17 +23,12 @@ Suitable for measuring ambient temperature, barometric pressure, and altitude, t
 25.81*C 948.09hPa
 ```
  
-
-
-
 ## Installing
 
-Stable library from PyPi:
-
-* Just run `sudo pip install bmp280`
-
 Latest/development library from GitHub:
+#### (optional) uninstall previous installed bmp280
+* `pip3 uninstall bmp280`
 
-* `git clone https://github.com/pimoroni/bmp280-python`
-* `cd bmp280-python`
+* `git clone https://github.com/Izzy3110/python3-bmp280`
+* `cd python3-bmp280`
 * `sudo ./install.sh`
