@@ -75,7 +75,7 @@ class BMP280Calibration():
 
 
 class BMP280:
-    def __init__(self, i2c_addr=I2C_ADDRESS_GND, i2c_dev=None):
+    def __init__(self, i2c_addr=I2C_ADDRESS_VCC, i2c_dev=None):
         self.calibration = BMP280Calibration()
         self._is_setup = False
         self._i2c_addr = i2c_addr
